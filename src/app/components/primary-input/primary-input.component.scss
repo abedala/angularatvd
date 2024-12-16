@@ -1,0 +1,38 @@
+.input-wrapper{
+    color:#808080 ;
+    font-size: 16px;
+    text-align: start;
+    width: 100%;
+
+    label{
+        margin-bottom: 10px;
+    }
+
+    .input-content{
+        width: 100%;
+        border-radius: 8px;
+        display: flex;
+
+        .icon{
+           padding: 12px;
+            background-color: #9370db;
+            border-radius: 0px 8px 8px 0px;
+
+            
+
+        }
+    }
+    input{
+       
+        border: none;
+        border-radius: 8px 0 0 8px;
+        background-color:#dcdcdc;
+    
+        color:#808080;
+        font-size: 16px;
+        padding: 12px 0  12px 20px;
+        width: 100%;
+    }
+
+}
+

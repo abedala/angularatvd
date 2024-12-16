@@ -1,0 +1,29 @@
+<main>
+    <section class="form-section">
+        <p> Bem vindo, Game Mania!</p>
+        <h2> Explora, Vença e Jogue</h2>
+        <h3> {{ title }}</h3>
+        <ng-content></ng-content>
+<div class="btn-wrapper">
+
+<button 
+class="btn-primary" 
+(click)="submit()"
+[disabled]="disabledPrimaryBtn"
+
+> {{ primaryBtnText }}</button>
+<div class="dividir">
+    <div class="line"></div>
+    <span>or </span>
+    <div class="line"></div>
+</div>
+
+<button class="btn-secundary"(click)="navigate()">{{ secundaryBtnText }} </button>
+</div>
+</section>
+    <section class="main-section">
+        <h1> Game Mania</h1>
+        <img src="/assets/vdg.png" class="imagem">
+
+    </section>
+</main>
